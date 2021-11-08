@@ -1,0 +1,40 @@
+package com.amazon.ata.dynamodbdeleteiterators.prework.taskTracker1;
+
+public class Task {
+    private String jobId;
+    private String completedBy;
+    private Integer yearCompleted;
+    private Integer hoursTaken;
+
+    public String getJobId() {
+        return jobId;
+    }
+
+    public void setJobId(String jobId) {
+        this.jobId = jobId;
+    }
+
+    public String getCompletedBy() {
+        return completedBy;
+    }
+
+    public void setCompletedBy(String completedBy) {
+        this.completedBy = completedBy;
+    }
+
+    public Integer getYearCompleted() {
+        return yearCompleted;
+    }
+
+    public void setYearCompleted(Integer yearCompleted) {
+        this.yearCompleted = yearCompleted;
+    }
+
+    public Integer getHoursTaken() {
+        return hoursTaken;
+    }
+
+    public void setHoursTaken(Integer hoursTaken) {
+        this.hoursTaken = hoursTaken;
+    }
+}
