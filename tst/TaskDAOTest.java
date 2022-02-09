@@ -1,5 +1,3 @@
-package com.amazon.ata.dynamodbdeleteiterators.prework.taskTracker1;
-
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

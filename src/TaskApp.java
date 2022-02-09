@@ -1,5 +1,3 @@
-package com.amazon.ata.dynamodbdeleteiterators.prework.taskTracker1;
-
 import com.amazon.ata.aws.dynamodb.DynamoDbClientProvider;
 
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;

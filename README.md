@@ -1,7 +1,5 @@
 ### Deleting completed tasks
 
-**Branch name:** dynamodbdeleteiterators-prework
-
 Expected time required: 10 min
 
 You're creating a database to help with work productivity. One of the tables in your database is called `TaskTracker`. 
@@ -18,9 +16,6 @@ annotate it properly. The `getTask()` and `saveTask()` methods are also already 
 
 The unit tests in `TaskDAOTest` are set-up with a mock database so that you can test your methods offline. The `main()` 
 method is set-up in `TaskApp` so that you can connect to the real `TaskTracker` table and test your methods that way.
-
-When you've finished writing your code and testing, make sure `rde workflow run dynamodbdeleteiterators-prework-tasktracker1`
-is passing and push.
 
 HINTS:
 * [I'm getting the error `'no HASH key value present'` when I attempt to delete an item.](./hints/hint-01.md)

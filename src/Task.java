@@ -1,5 +1,3 @@
-package com.amazon.ata.dynamodbdeleteiterators.prework.taskTracker1;
-
 public class Task {
     private String jobId;
     private String completedBy;
