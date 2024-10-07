@@ -17,6 +17,7 @@ public class TaskDAO {
      * @param task given Task instance that's removed from the table based on the partition key
      */
     public void deleteTask(Task task) {
+        mapper.delete(task);
         //TODO: Implement functionality to delete the task that's passed in
     }
 
